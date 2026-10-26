@@ -1,0 +1,72 @@
+name: nayza_vocab
+description: "NayzaVocab Premium — Advanced Spaced Repetition vocabulary trainer."
+publish_to: 'none'
+
+version: 1.0.4+5
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_tts: ^4.2.5
+  path_provider: ^2.1.5
+  intl: ^0.20.2
+  provider: ^6.1.5+1
+  audioplayers: ^6.6.0
+  uuid: ^4.5.3
+  grouped_list: ^6.0.0
+  equatable: ^2.0.8
+  google_fonts: ^8.0.2
+  lucide_icons: ^0.257.0
+  image: ^4.8.0
+  file_picker: ^10.3.10
+  share_plus: ^12.0.2
+  vibration: ^3.1.8
+  flutter_local_notifications: ^21.0.0
+  timezone: ^0.11.0
+  shared_preferences: ^2.2.2
+  flutter_timezone: ^5.0.2
+  go_router: ^14.0.0
+  dartz: ^0.10.1
+  url_launcher: ^6.3.1
+  supabase_flutter: ^2.8.5
+  flutter_dotenv: ^5.2.1
+  http: ^1.2.2
+  package_info_plus: ^8.1.2
+  open_filex: ^4.5.0
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.14.4
+  mocktail: ^1.0.5
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#0A192F"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/audio/
+    - assets/icon/

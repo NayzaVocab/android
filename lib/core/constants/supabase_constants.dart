@@ -1,0 +1,13 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+class SupabaseConstants {
+  /// Supabase loyiha URL manzili (.env faylidan olinadi)
+  static String get supabaseUrl =>
+      dotenv.env['SUPABASE_URL'] ??
+      const String.fromEnvironment('SUPABASE_URL', defaultValue: '');
+
+  /// Supabase Anon/Publishable kaliti (.env faylidan olinadi)
+  static String get supabaseAnonKey =>
+      dotenv.env['SUPABASE_ANON_KEY'] ??
+      const String.fromEnvironment('SUPABASE_ANON_KEY', defaultValue: '');
+}

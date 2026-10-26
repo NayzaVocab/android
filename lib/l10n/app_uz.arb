@@ -1,0 +1,304 @@
+{
+  "appTitle": "Nayza Vocab",
+  "homeTitle": "O'Z BILIMINGNI SINAB KO'R!",
+  "homeSubtitle": "To'plamlaringizni tanlang va testni boshlang.",
+  "startTest": "TESTNI BOSHLASH",
+  "matchingGame": "MATCHING GAME",
+  "manageCollections": "TO'PLAMLARNI BOSHQARISH",
+  "settings": "Sozlamalar",
+  "history": "To'plamlar",
+  "collections": "To'plamlar",
+  "difficultWordsTitle": "QIYIN SO'ZLAR",
+  "difficultWordsSubtitle": "Sizda {count} ta xato qilingan so'z bor",
+  "difficultSetTitle": "Qiyin so'zlar #{number}",
+  "@difficultSetTitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "removeFromDifficult": "Qiyin so'zlar ro'yxatidan olib tashlash",
+  "noDifficultWords": "Hali qiyin so'zlar yo'q. Test ishlashni davom eting!",
+  "myCollectionsHeader": "MENING TO'PLAMLARIM",
+  "difficultCollectionsHeader": "QIYIN TO'PLAMLAR",
+  "@difficultWordsSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "muteOn": "Ovozni yoqish",
+  "muteOff": "Ovozni o'chirish",
+  "dataManagement": "MA'LUMOTLARNI BOSHQARISH",
+  "export": "Ulashish yoki zaxiralash",
+  "exportSubtitle": "To'plamlarni tanlab ulashish yoki zaxira nusxa olish",
+  "import": "So'zlarni qo'shish yoki tiklash",
+  "importSubtitle": "Zaxira faylidan (JSON) to'plamlarni yuklash",
+  "notifications": "BILDIRISHNOMALAR",
+  "dailyReminder": "Kunlik Eslatma",
+  "reminderSubtitle": "Har kuni soat {time} da eslatish",
+  "@reminderSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderDefault": "Har kuni qiyin so'zlarni eslatish",
+  "reminderSetSuccess": "Kunlik eslatma soat {time} ga belgilandi",
+  "appInfo": "ILOVA HAQIDA",
+  "appVersion": "Nayza Vocab v1.0.1\nCreated for Nayzadorlar 🔱",
+  "language": "Til",
+  "uzbek": "O'zbek",
+  "russian": "Ruscha",
+  "english": "Inglizcha",
+  "importSuccess": "{count} ta to'plam muvaffaqiyatli import qilindi",
+  "importError": "Import xatoligi: {error}",
+  "historyTitle": "TO'PLAMLARIM",
+  "searchHint": "To'plam yoki so'zni qidirish...",
+  "noResults": "Natija topilmadi",
+  "noCollections": "To'plamlar yo'q",
+  "collectionsLabel": "TO'PLAMLAR",
+  "foundWordsLabel": "TOPILGAN SO'ZLAR",
+  "editWord": "SO'ZNI TAHRIRLASH",
+  "editSetTitle": "TO'PLAM NOMINI O'ZGARTIRISH",
+  "originalWord": "Asl so'z",
+  "translationWord": "Tarjima",
+  "cancel": "BEKOR QILISH",
+  "save": "SAQLASH",
+  "wordUpdated": "So'z yangilandi",
+  "wordCountLabel": "{count, plural, other{{count} ta so'z}}",
+  "setsCountLabel": "{count, plural, other{{count} ta to'plam}}",
+  "@wordCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@setsCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectCollectionsTitle": "TO'PLAMLARNI TANLASH",
+  "emptyCollectionsWarning": "Avval kamida bitta to'plam yaratishingiz kerak.",
+  "selectAll": "Barchasini tanlash",
+  "deselectAll": "Barchasini bekor qilish",
+  "selectToStart": "Boshlash uchun tanlang",
+  "emptySelectionWarning": "Tanlangan to'plamlar bo'sh!",
+  "quizSetupTitle": "TEST SOZLAMALARI",
+  "selectQuizMode": "TEST TURINI TANLANG",
+  "selectDirection": "TEST YO'NALISHI",
+  "start": "BOSHLASH",
+  "choiceMode": "Variantli",
+  "choiceSubtitle": "4 ta javobdan tanlash",
+  "inputMode": "Yozma",
+  "inputSubtitle": "O'zingiz kiriting",
+  "flashcardMode": "Flashcard",
+  "flashcardSubtitle": "Klassik takrorlash",
+  "matchingMode": "Matching",
+  "matchingSubtitle": "Juftliklarni toping",
+  "originalToTranslation": "Asl so'z -> Tarjima",
+  "translationToOriginal": "Tarjima -> Asl so'z",
+  "randomDirection": "Aralash (Random)",
+  "originalToTranslationSubtitle": "Masalan: English -> Uzbek",
+  "translationToOriginalSubtitle": "Masalan: Uzbek -> English",
+  "randomDirectionSubtitle": "Har xil yo'nalishda",
+  "correctAnswerLabel": "To'g'ri javob: {answer}",
+  "@correctAnswerLabel": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "typeTranslationHint": "Tarjimani kiriting...",
+  "summaryTitle": "NATIJALAR",
+  "scoreLabel": "SIZDAGI BALL: {score}",
+  "@scoreLabel": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "correctCountLabel": "To'g'ri: {count}",
+  "incorrectCountLabel": "Xato: {count}",
+  "finish": "TUGALLASH",
+  "tryAgain": "QAYTA URINISH",
+  "learnedWordsCount": "Ushbu sessiyada {count} ta so'zni o'rgandingiz!",
+  "flashcardLabel": "FLASHCARD",
+  "knowWord": "BILDIM",
+  "dontKnowWord": "BILMADIM",
+  "matchingGameTitle": "MOSLASHTIRISH O'YINI",
+  "findPairsLabel": "JUFTLIKLARNI TOPING",
+  "stageLabel": "{count}-bosqich",
+  "@stageLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "gameOverTitle": "O'YIN YAKUNLANDI!",
+  "createSetTitle": "YANGI TO'PLAM",
+  "collectionNameLabel": "To'plam nomi",
+  "collectionNameHint": "Masalan: Oila, Sayohat...",
+  "nameRequiredError": "Nom kiriting",
+  "languageLabel": "O'rganilayotgan til",
+  "englishLang": "Ingliz tili",
+  "arabicLang": "Arab tili",
+  "russianLang": "Rus tili",
+  "uzbekLang": "O'zbek (Ovozli o'qish yo'q)",
+  "germanLang": "Nemis",
+  "koreanLang": "Koreys",
+  "wordPlaceholder": "So'z",
+  "translationPlaceholder": "Tarjima",
+  "addRowButton": "QATOR QO'SHISH",
+  "atLeastOneWordWarning": "Kamida bitta so'z kiriting",
+  "setNotFound": "To'plam topilmadi.",
+  "deleteSetTitle": "TO'PLAMLARNI O'CHIRISH",
+  "deleteSetConfirmation": "\"{title}\" to'plamini o'chirishga ishonchingiz komilmi?",
+  "@deleteSetConfirmation": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "O'CHIRISH",
+  "addWord": "SO'Z QO'SHISH",
+  "emptySetWarning": "Bu to'plam hali bo'sh.",
+  "wordsFoundCount": "{count} ta so'z mavjud",
+  "@wordsFoundCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "masteryExplanation": "So'z bir marta to'g'ri topilganda 100% yodlangan hisoblanadi",
+  "progressLabel": "PROGRES",
+  "selectSetsTitle": "TO'PLAMLARNI TANLASH",
+  "selectAtLeastOneSet": "Kamida bitta to'plamni tanlang.",
+  "exportSuccess": "Eksport muvaffaqiyatli yakunlandi!",
+  "shareSuccess": "To'plam muvaffaqiyatli ulashildi!",
+  "shareSubject": "NayzaVocab: {title}",
+  "shareMessage": "📚 Nayza Vocab To'plami: {title}\n🌐 Tili: {lang}\n📝 So'zlar soni: {count} ta\n\nUshbu faylni Nayza Vocab amaliyotiga Import qiling va lug'at boyligingizni oshiring!",
+  "importedSuffix": "(Import qilingan)",
+  "exportError": "Eksportda xatolik: {error}",
+  "@exportError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wordsCountLabel": "{count} ta so'z",
+  "@wordsCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportAction": "EKSPORT QILISH ({count})",
+  "onboardingWelcome": "NAYZA VOCAB GA XUSH KELIBSIZ",
+  "onboardingPage1Title": "So'zlarni Mukammal O'rganing",
+  "onboardingPage1Subtitle": "Ilmiy asoslangan usullar bilan yangi so'zlarni yodda saqlashning eng samarali yo'li.",
+  "onboardingPage2Title": "Flashcardlar va O'yinlar",
+  "onboardingPage2Subtitle": "O'rganishni qiziqarli qilish uchun mo'ljallangan interaktiv testlar va moslashtirish o'yinlari.",
+  "onboardingPage3Title": "Progresingizni Kuzating",
+  "onboardingPage3Subtitle": "Vaqt o'tishi bilan o'sishingizni ko'ring va qiyin so'zlarga e'tibor qaratib boring.",
+  "onboardingGetStarted": "BOSHLASH",
+  "skip": "O'TKAZIB YUBORISH",
+  "submitAnswer": "TASDIQLASH",
+  "collectionsPageTitle": "KUTUBXONA",
+  "cancelReminder": "Eslatmani bekor qilish",
+  "resetAllData": "Barcha ma'lumotlarni o'chirish",
+  "resetAllDataConfirm": "Bu barcha to'plamlar va progressingizni butunlay o'chirib tashlaydi. Ishonchingiz komilmi?",
+  "deleteSetConfirm": "Ushbu to'plamni o'chirishni xohlaysizmi?",
+  "communityAndUpdates": "HAMJAMIYAT VA YANGILANISHLAR",
+  "telegramChannel": "Telegram Kanalimiz",
+  "telegramSubtitle": "Maslahatlar va yangiliklar uchun qo'shiling",
+  "checkForUpdates": "Yangilanishlarni tekshirish",
+  "checkForUpdatesSubtitle": "Nayza Vocab'ning so'nggi versiyasini oling",
+  "onboardingPage4Title": "Qanday ishlaydi?",
+  "onboardingPage4Subtitle": "Tizimli takrorlash orqali so'zlarni o'zlashtiring. Qiyin so'zlar siz ularni to'liq yod olguningizcha tez-tez takrorlanib turadi.",
+  "library": "KUTUBXONA",
+  "createFolder": "Yangi papka",
+  "folderName": "Papka nomi",
+  "create": "YARATISH",
+  "enterFolderName": "Papka nomini kiriting",
+  "noFolder": "Papkadan tashqarida (Asosiy)",
+  "uncategorized": "PAPKASIZ",
+  "dangerZone": "XAVFLI HUDUD",
+  "shareError": "Ulashishda xatolik: {error}",
+  "rename": "Nomini o'zgartirish",
+  "onlineLibraryTitle": "NAYZA CLOUD KUTUBXONASI",
+  "allTopics": "BARCHA MAVZULAR",
+  "wordCountLabel_short": "{count} so'z",
+  "@wordCountLabel_short": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "downloadAll": "BARCHASINI YUKLASH",
+  "installed": "O'RNATILGAN",
+  "downloading": "Yuklanmoqda...",
+  "deleteFolderConfirm": "Papkani o'chirsangiz, uning ichidagi BARCHA to'plamlar va so'zlar ham o'chib ketadi. Rostdan ham o'chirmoqchimisiz?",
+  "connectionError": "ULANISHDA XATOLIK",
+  "noInternetMessage": "Internet ulanishini tekshiring va qaytadan urinib ko'ring.",
+  "noResultsFound": "HECH NIMA TOPILMADI",
+  "clearFilters": "FILTRNI TOZALASH",
+  "all": "BARCHASI",
+  "allDataCleared": "Barcha ma'lumotlar muvaffaqiyatli tozalandi!",
+  "share": "Ulashish",
+  "home": "Asosiy",
+  "profile": "Profil",
+  "editProfile": "Profilni tahrirlash",
+  "userName": "Foydalanuvchi ismi",
+  "userAge": "Yoshi",
+  "targetLanguage": "O'rganilayotgan til",
+  "folderBreakdown": "PAPKALAR VA TILLAR TAHLILI",
+  "subjectBreakdown": "FANLAR VA TO'PLAMLAR",
+  "yearsOld": "{age} yosh",
+  "@yearsOld": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "masteredWords": "O'zlashtirilgan",
+  "smartPasteTitle": "Tezkor joylash",
+  "smartPasteHint": "so'z - tarjima\nboshqa so'z = boshqa tarjima",
+  "userNameHint": "Ismingiz",
+  "invalidAgeError": "To'g'ri yosh kiriting (1-120)",
+  "folders": "Papkalar",
+  "masteredPercentage": "{percentage}% o'zlashtirildi",
+  "showLess": "Qisqartirish",
+  "showAllWithCount": "Barchasi ({count})",
+  "rankNovice": "🛡️ Boshlang'ich Jangchi",
+  "rankAdvanced": "⚔️ Ilg'or Jangchi",
+  "rankCommander": "🔱 Nayza Sardori",
+  "rankWordMaster": "👑 So'z Ustasi",
+  "uzbekLang": "O'zbekcha",
+  "checkForUpdates": "Yangilanishlarni tekshirish",
+  "latestVersionInstalled": "Sizda eng so'nggi versiya o'rnatilgan",
+  "updateAvailable": "Yangi versiya mavjud",
+  "updateNow": "Hozir yangilash",
+  "downloadingUpdate": "Yangilanish yuklanmoqda...",
+  "updateCheckFailed": "Yangilanishni tekshirib bo'lmadi",
+  "whatsNew": "Yangiliklar va o'zgarishlar",
+  "openInBrowser": "Brauzerda yuklab olish",
+  "audioSpeed": "Talaffuz tezligi",
+  "speedSlow": "Sekin (0.75x)",
+  "speedNormal": "Standart (1.0x)",
+  "speedFast": "Tez (1.25x)"
+}

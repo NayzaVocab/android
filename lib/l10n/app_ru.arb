@@ -1,0 +1,304 @@
+{
+  "appTitle": "Nayza Vocab",
+  "homeTitle": "ПРОВЕРЬ СВОИ ЗНАНИЯ!",
+  "homeSubtitle": "Выберите свои коллекции и начните тест.",
+  "startTest": "НАЧАТЬ ТЕСТ",
+  "matchingGame": "ИГРА В ПАРЫ",
+  "manageCollections": "УПРАВЛЕНИЕ КОЛЛЕКЦИЯМИ",
+  "settings": "Настройки",
+  "history": "История",
+  "collections": "Коллекции",
+  "difficultWordsTitle": "СЛОЖНЫЕ СЛОВА",
+  "difficultWordsSubtitle": "У вас {count} слов с ошибками",
+  "difficultSetTitle": "Сложные слова #{number}",
+  "@difficultSetTitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "removeFromDifficult": "Удалить из списка сложных слов",
+  "noDifficultWords": "Пока нет сложных слов. Продолжайте тренироваться!",
+  "myCollectionsHeader": "МОИ КОЛЛЕКЦИИ",
+  "difficultCollectionsHeader": "СЛОЖНЫЕ ПОДБОРКИ",
+  "@difficultWordsSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "muteOn": "Включить звук",
+  "muteOff": "Выключить звук",
+  "dataManagement": "УПРАВЛЕНИЕ ДАННЫМИ",
+  "export": "Поделиться или бэкап",
+  "exportSubtitle": "Выберите коллекции для передачи или создания резервной копии",
+  "import": "Добавить слова или восстановить",
+  "importSubtitle": "Загрузить коллекции из файла резервной копии (JSON)",
+  "notifications": "УВЕДОМЛЕНИЯ",
+  "dailyReminder": "Ежедневное напоминание",
+  "reminderSubtitle": "Напоминать ежедневно в {time}",
+  "@reminderSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderDefault": "Напоминать сложные слова ежедневно",
+  "reminderSetSuccess": "Напоминание установлено на {time}",
+  "appInfo": "О ПРИЛОЖЕНИИ",
+  "appVersion": "Nayza Vocab v1.0.0\nCreated for Nayzadorlar 🔱",
+  "language": "Язык",
+  "uzbek": "Узбекский",
+  "russian": "Русский",
+  "english": "Английский",
+  "importSuccess": "Успешно импортировано {count} коллекций",
+  "importError": "Ошибка импорта: {error}",
+  "historyTitle": "МОИ КОЛЛЕКЦИИ",
+  "searchHint": "Поиск коллекции или слова...",
+  "noResults": "Ничего не найдено",
+  "noCollections": "Нет коллекций",
+  "collectionsLabel": "КОЛЛЕКЦИИ",
+  "foundWordsLabel": "НАЙДЕННЫЕ СЛОВА",
+  "editWord": "ИЗМЕНИТЬ СЛОВО",
+  "editSetTitle": "ПЕРЕИМЕНОВАТЬ КОЛЛЕКЦИЮ",
+  "originalWord": "Оригинал",
+  "translationWord": "Перевод",
+  "cancel": "ОТМЕНА",
+  "save": "СОХРАНИТЬ",
+  "wordUpdated": "Слово обновлено",
+  "wordCountLabel": "{count, plural, one{{count} слово} few{{count} слова} other{{count} слов}}",
+  "setsCountLabel": "{count, plural, one{{count} набор} few{{count} набора} other{{count} наборов}}",
+  "@wordCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@setsCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectCollectionsTitle": "ВЫБОР КОЛЛЕКЦИЙ",
+  "emptyCollectionsWarning": "Сначала создайте хотя бы одну коллекцию.",
+  "selectAll": "Выбрать все",
+  "deselectAll": "Снять выделение",
+  "selectToStart": "Выберите для начала",
+  "emptySelectionWarning": "Выбранные коллекции пусты!",
+  "quizSetupTitle": "НАСТРОЙКИ ТЕСТА",
+  "selectQuizMode": "ВЫБЕРИТЕ ТИП ТЕСТА",
+  "selectDirection": "НАПРАВЛЕНИЕ ТЕСТА",
+  "start": "НАЧАТЬ",
+  "choiceMode": "Выбор варианта",
+  "choiceSubtitle": "Выбор из 4 вариантов",
+  "inputMode": "Письменно",
+  "inputSubtitle": "Вводите ответ сами",
+  "flashcardMode": "Флэш-карты",
+  "flashcardSubtitle": "Классическое повторение",
+  "matchingMode": "Сопоставление",
+  "matchingSubtitle": "Найдите пары слов",
+  "originalToTranslation": "Оригинал -> Перевод",
+  "translationToOriginal": "Перевод -> Оригинал",
+  "randomDirection": "Смешанный (Рандом)",
+  "originalToTranslationSubtitle": "Например: Английский -> Узбекский",
+  "translationToOriginalSubtitle": "Например: Узбекский -> Английский",
+  "randomDirectionSubtitle": "В случайном порядке",
+  "correctAnswerLabel": "Правильный ответ: {answer}",
+  "@correctAnswerLabel": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "typeTranslationHint": "Введите перевод...",
+  "summaryTitle": "РЕЗУЛЬТАТЫ",
+  "scoreLabel": "ВАШ СЧЕТ: {score}",
+  "@scoreLabel": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "correctCountLabel": "Верно: {count}",
+  "incorrectCountLabel": "Неверно: {count}",
+  "finish": "ЗАВЕРШИТЬ",
+  "tryAgain": "ПОВТОРИТЬ",
+  "learnedWordsCount": "Вы выучили {count} слов в этой сессии!",
+  "flashcardLabel": "ФЛЭШ-КАРТА",
+  "knowWord": "ЗНАЮ",
+  "dontKnowWord": "НЕ ЗНАЮ",
+  "matchingGameTitle": "ИГРА В ПАРЫ",
+  "findPairsLabel": "НАЙДИТЕ ПАРЫ",
+  "stageLabel": "Этап {count}",
+  "@stageLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "gameOverTitle": "ИГРА ЗАКОНЧЕНА!",
+  "createSetTitle": "НОВАЯ КОЛЛЕКЦИЯ",
+  "collectionNameLabel": "Название коллекции",
+  "collectionNameHint": "Напр: Путешествия, Семья...",
+  "nameRequiredError": "Введите название",
+  "languageLabel": "Изучаемый язык",
+  "englishLang": "Английский",
+  "arabicLang": "Арабский",
+  "russianLang": "Русский",
+  "uzbekLang": "Узбекский (Без озвучки)",
+  "germanLang": "Немецкий",
+  "koreanLang": "Корейский",
+  "wordPlaceholder": "Слово",
+  "translationPlaceholder": "Перевод",
+  "addRowButton": "ДОБАВИТЬ СТРОКУ",
+  "atLeastOneWordWarning": "Введите хотя бы одно слово",
+  "setNotFound": "Коллекция не найдена.",
+  "deleteSetTitle": "УДАЛИТЬ КОЛЛЕКЦИЮ",
+  "deleteSetConfirmation": "Вы уверены, что хотите удалить \"{title}\"?",
+  "@deleteSetConfirmation": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "УДАЛИТЬ",
+  "addWord": "ДОБАВИТЬ СЛОВО",
+  "emptySetWarning": "Эта коллекция пуста.",
+  "wordsFoundCount": "Доступно слов: {count}",
+  "@wordsFoundCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "masteryExplanation": "Слово считается выученным после 1 правильного ответа",
+  "progressLabel": "ПРОГРЕСС",
+  "selectSetsTitle": "ВЫБОР КОЛЛЕКЦИЙ",
+  "selectAtLeastOneSet": "Выберите хотя бы одну коллекцию.",
+  "exportSuccess": "Экспорт успешно завершен!",
+  "shareSuccess": "Успешно отправлено!",
+  "shareSubject": "NayzaVocab: {title}",
+  "shareMessage": "📚 Коллекция Nayza Vocab: {title}\n🌐 Язык: {lang}\n📝 Слов: {count}\n\nИмпортируйте этот файл в Nayza Vocab, чтобы учиться вместе!",
+  "importedSuffix": "(Импортировано)",
+  "exportError": "Ошибка экспорта: {error}",
+  "@exportError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "wordsCountLabel": "Слов: {count}",
+  "@wordsCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "exportAction": "ЭКСПОРТИРОВАТЬ ({count})",
+  "onboardingWelcome": "ДОБРО ПОЖАЛОВАТЬ В NAYZA VOCAB",
+  "onboardingPage1Title": "Совершенствуйте Свой Словарный Запас",
+  "onboardingPage1Subtitle": "Самый мощный способ изучения и запоминания новых слов с использованием научно обоснованных методов.",
+  "onboardingPage2Title": "Флэш-карты и Игры",
+  "onboardingPage2Subtitle": "Интерактивные тесты и игры в пары, разработанные для того, чтобы сделать обучение увлекательным.",
+  "onboardingPage3Title": "Отслеживайте Свой Прогресс",
+  "onboardingPage3Subtitle": "Следите за своим ростом с течением времени и сосредоточьтесь на трудных словах.",
+  "onboardingGetStarted": "НАЧАТЬ",
+  "skip": "ПРОПУСТИТЬ",
+  "submitAnswer": "ПОДТВЕРДИТЬ",
+  "collectionsPageTitle": "КОЛЛЕКЦИИ",
+  "cancelReminder": "Отменить напоминание",
+  "resetAllData": "Сбросить все данные",
+  "resetAllDataConfirm": "Это навсегда удалит все ваши коллекции и прогресс. Вы уверены?",
+  "deleteSetConfirm": "Вы уверены, что хотите удалить эту коллекцию?",
+  "communityAndUpdates": "СООБЩЕСТВО И ОБНОВЛЕНИЯ",
+  "telegramChannel": "Telegram канал",
+  "telegramSubtitle": "Присоединяйтесь для советов и новостей",
+  "checkForUpdates": "Проверить обновления",
+  "checkForUpdatesSubtitle": "Получите последнюю версию Nayza Vocab",
+  "onboardingPage4Title": "Как это работает?",
+  "onboardingPage4Subtitle": "Осваивайте слова через систему повторений. Сложные слова возвращаются чаще, пока вы их не запомните.",
+  "library": "БИБЛИОТЕКА",
+  "createFolder": "Новая папка",
+  "folderName": "Название папки",
+  "create": "СОЗДАТЬ",
+  "enterFolderName": "Введите название папки",
+  "noFolder": "Вне папки (Главная)",
+  "uncategorized": "БЕЗ КАТЕГОРИИ",
+  "dangerZone": "ОПАСНАЯ ЗОНА",
+  "shareError": "Error sharing: {error}",
+  "rename": "Rename",
+  "onlineLibraryTitle": "NAYZA CLOUD LIBRARY",
+  "allTopics": "ALL TOPICS",
+  "wordCountLabel_short": "{count} words",
+  "@wordCountLabel_short": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "downloadAll": "DOWNLOAD ALL",
+  "installed": "INSTALLED",
+  "downloading": "Downloading...",
+  "deleteFolderConfirm": "Deleting this folder will also delete all its sets and words. Are you sure?",
+  "connectionError": "CONNECTION ERROR",
+  "noInternetMessage": "Please check your internet connection and try again.",
+  "noResultsFound": "NO RESULTS FOUND",
+  "clearFilters": "CLEAR FILTERS",
+  "all": "ВСЕ",
+  "allDataCleared": "Все данные успешно удалены!",
+  "share": "Поделиться",
+  "home": "Главная",
+  "profile": "Профиль",
+  "editProfile": "Редактировать профиль",
+  "userName": "Имя пользователя",
+  "userAge": "Возраст",
+  "targetLanguage": "Изучаемый язык",
+  "folderBreakdown": "АНАЛИЗ ПАПОК И ЯЗЫКОВ",
+  "subjectBreakdown": "ОБЗОР КОЛЛЕКЦИЙ",
+  "yearsOld": "{age} лет",
+  "@yearsOld": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "masteredWords": "Освоено",
+  "smartPasteTitle": "Умная вставка",
+  "smartPasteHint": "слово - перевод\nдругое слово = другой перевод",
+  "userNameHint": "Ваше имя",
+  "invalidAgeError": "Введите корректный возраст (1-120)",
+  "folders": "Папки",
+  "masteredPercentage": "{percentage}% освоено",
+  "showLess": "Свернуть",
+  "showAllWithCount": "Все ({count})",
+  "rankNovice": "🛡️ Начинающий Воин",
+  "rankAdvanced": "⚔️ Опытный Боец",
+  "rankCommander": "🔱 Командир Найза",
+  "rankWordMaster": "👑 Мастер Слов",
+  "uzbekLang": "Узбекский",
+  "checkForUpdates": "Проверить обновления",
+  "latestVersionInstalled": "У вас установлена последняя версия",
+  "updateAvailable": "Доступно обновление",
+  "updateNow": "Обновить сейчас",
+  "downloadingUpdate": "Загрузка обновления...",
+  "updateCheckFailed": "Не удалось проверить обновления",
+  "whatsNew": "Что нового",
+  "openInBrowser": "Скачать в браузере",
+  "audioSpeed": "Скорость озвучки",
+  "speedSlow": "Медленно (0.75x)",
+  "speedNormal": "Обычная (1.0x)",
+  "speedFast": "Быстро (1.25x)"
+}
